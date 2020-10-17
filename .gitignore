@@ -1,18 +1,38 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+bersih
+bersih
+MERAH = ' \ 033 [0; 91m '  # merah
+NC = ' \ 033 [0m '  # Tanpa Warna
+GR = ' \ 033 [1; 32m '  # hijau
+YL = ' \ 033 [0; 93m '  # kuning                                      
+BL = ' \ 033 [0; 94m '  # biru
+echo -e " $ {YL} WiFi ExTr4ct0r $ {NC} Dikodekan Oleh $ {RED} Yaseen Emv $ {NC} " 
+echo  " "
+echo -e " $ {GR}       [1] $ {NC} Hubungkan ke Root "
+echo -e " $ {GR}       [2] $ {NC} Ekstrak Kata Sandi Tersimpan Anda "
+echo -e "  $ {BL}  "
+baca p " Masukkan nomor $ " nama
+echo -e "  $ {NC}  "
+jika [ $ name  ==  " 1 " ] ;  kemudian
+apt-get install tsu &&  echo -e " $ {GR} Berhasil Menginstal Root $ {NC}  " 
+echo  " "
+echo -e " Masukkan $ {YL} ./WiFi-ExTr4ct0r.sh $ {NC} Lalu Masukkan $ {YL} 2 $ {NC}  " 
+echo  " "
+tsu
+ fi 
+echo -e " $ {GR} harap tunggu ............ $ {NC} "
+echo  " "
+echo -e " Masukkan $ {YL} 2 $ {NC} "
+   tidur 3
+ echo -e "  $ {BL} "
+baca p " Masukkan Anda Nomor $ " nama
+echo -e "  $ {NC} " 
+jika [ $ name  ==  " 2 " ] ;  kemudian
+echo -e " $ {GR} "
+cat /data/misc/wifi/wpa_supplicant.conf
+echo -e " $ {NC}  "
+echo  " "
+lain
+   echo -e "  $ {RED} Maaf Bro Perintah Salah $ {NC} "
+   tidur 5
+fi
